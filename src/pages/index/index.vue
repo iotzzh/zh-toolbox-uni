@@ -2,14 +2,15 @@
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
-      <text class="title">{{ title }}</text>
+      <text class="title">{{ title.name }}</text>
+      <text class="title">111</text>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+import { reactive } from 'vue'
+const title = reactive({ name: 'zzh', age: 18 })
 </script>
 
 <style>
