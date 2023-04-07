@@ -4,6 +4,7 @@
     <view class="text-area">
       <text class="title">{{ title.name }}</text>
       <text class="title">111</text>
+      <text>This is in vue3.</text>
     </view>
   </view>
 </template>
