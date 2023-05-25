@@ -1,9 +1,9 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png" />
+    <image class="logo" src="http://qiniu-tujieqianduan.iotzzh.com/Parallel_Class_MSDN.png" />
     <view class="text-area">
       <text class="title">{{ title.name }}</text>
-      <text class="title">111</text>
+      <text class="title">112233221</text>
       <text>This is in vue3.</text>
     </view>
   </view>
